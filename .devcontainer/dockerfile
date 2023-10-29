@@ -1,8 +1,8 @@
 FROM archlinux
 
-LABEL version="0.2.0"
+LABEL version="0.1.0"
 LABEL maintainer="haru"
-LABEL name="timetable-frontend-next"
+LABEL name="1-4-kosensai-archive"
 
 RUN pacman -Syu --noconfirm 
 RUN pacman -S --noconfirm nodejs
